@@ -7,23 +7,23 @@
   "variable": [
     {
       "key": "productos",
-      "value": "http://localhost:8081"
+      "value": "http://ferreteriacarrasco.duckdns.org"
     },
     {
       "key": "usuarios",
-      "value": "http://localhost:8082"
+      "value": "http://ferreteriacarrasco.duckdns.org"
     },
     {
       "key": "pedidos",
-      "value": "http://localhost:8083"
+      "value": "http://ferreteriacarrasco.duckdns.org"
     },
     {
       "key": "contacto",
-      "value": "http://localhost:8084"
+      "value": "http://ferreteriacarrasco.duckdns.org"
     },
     {
       "key": "pagos",
-      "value": "http://localhost:8085"
+      "value": "http://ferreteriacarrasco.duckdns.org"
     },
     {
       "key": "token",

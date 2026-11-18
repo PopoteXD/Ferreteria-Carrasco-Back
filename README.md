@@ -19,6 +19,12 @@ docker compose up -d --build
 ```
 Swagger: `http://localhost:8081/swagger-ui.html` (y 8082-8085).
 
+## API pública y Postman
+
+En Postman importa `postman/Ferreteria-Carrasco-Microservicios.postman_collection.json`. Las variables de servicio ya usan el dominio público, enrutado por nginx en el puerto 80: `http://ferreteriacarrasco.duckdns.org`. En la colección, asigna `adminClave` localmente (no la publiques) y ejecuta **Iniciar sesión**; el test guarda el JWT automáticamente en `token`.
+
+Comprobaciones públicas: `GET /api/health` y `GET /api/productos`. Sin JWT, `GET /api/usuarios` devuelve `401`. Para probar el `403`, inicia sesión con una cuenta CLIENTE y usa su token en una operación exclusiva ADMIN. No subas contraseñas, tokens ni capturas que los expongan.
+
 ## Tests
 ```bash
 cd microservicios/ms-usuarios && mvn clean test
