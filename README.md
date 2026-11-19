@@ -1,6 +1,8 @@
 # Ferreteria Carrasco - Backend
 
-Microservicios Spring Boot (Java) con JWT, roles ADMIN/CLIENTE, BCrypt, Swagger y MySQL.
+Microservicios Spring Boot (Java) con JWT, roles ADMIN/VENDEDOR/CLIENTE, BCrypt, Swagger y MySQL.
+
+Las rutas están disponibles en su forma versionada `/api/v1/...` y en el alias `/api/...`.
 
 | Servicio | Carpeta | Puerto |
 |---|---|---|
@@ -10,7 +12,7 @@ Microservicios Spring Boot (Java) con JWT, roles ADMIN/CLIENTE, BCrypt, Swagger 
 | ms-contacto | `microservicios/ms-contacto` | 8084 |
 | ms-pagos | `microservicios/ms-pagos` | 8085 |
 
-Contenido: `database/ferreteria.sql` (script de la BD), `postman/` (colección), `ERS_Ferreteria_Carrasco.docx`, `DESPLIEGUE_AWS.md`.
+Contenido: `database/ferreteria.sql` (script de la BD), `database/respaldo-ferreteria.sql` (respaldo), `postman/` (colección), `documentos/` (manual de usuario, documentación de APIs e integración y capturas), `ERS_Ferreteria_Carrasco.docx`, `DESPLIEGUE_AWS.md` y `GUION_DEMO.md`.
 
 ## Ejecutar con Docker
 ```bash
